@@ -12,7 +12,7 @@ const __dirname = path.resolve();
 // import db from './server/database/initializeDB.js';
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 const staticFolder = 'client';
 let liveReloadServer;
 

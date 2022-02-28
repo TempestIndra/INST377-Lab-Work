@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  margin-top:0;
   box-sizing: border-box;
 }
 
@@ -20,8 +21,37 @@ body {
 
 .wrapper {
   display: flex;
+  justify-content: center;
 }
 .container {
   max-width: 960px;
   margin-top: 25px;
+}
+
+.header {
+  display: flex;
+  background-color:#FFFDD0;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 20px 25px;
+  /* border-style: solid; */
+}
+
+.form{
+  display: flex;
+  background-color:#ffffff;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 20px 25px;
+}
+
+.label{
+  font-weight: bold;
+}
+
+.textArea{
+  display: flex;
+  background-color:#ffffff;
+  padding: 15px;
+  margin: 50px 55px;
 }
